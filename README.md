@@ -30,16 +30,8 @@ State management is done with `flutter_bloc`. There are two blocs:
 
 ## How to run
 
-This folder only has the Dart code, so make the platform folders first:
 
 ```
-flutter create pokedex_app
-```
-
-Then copy `lib/`, `test/` and `pubspec.yaml` from this project into the new `pokedex_app` folder (replace the existing ones). After that:
-
-```
-cd pokedex_app
 flutter pub get
 flutter run
 ```
